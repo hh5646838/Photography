@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoJo摄影</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="star-background" id="starBackground"></div>
+
+  <section class="hero-section" id="hero">
+    <div class="hero-content">
+      <div class="bubble-nav" id="bubbleNav"></div>
+      
+      <div class="avatar-container">
+        <img id="avatarImg" src="" alt="头像" class="avatar">
+        <div class="avatar-glow"></div>
+      </div>
+
+      <div class="hero-text">
+        <h1 class="site-title">JoJo摄影</h1>
+        <div class="social-links">
+          <a id="link500px" href="#" target="_blank" class="social-btn" title="500px">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.439 9.01A2.994 2.994 0 0 0 4.449 12a2.993 2.993 0 0 0 2.99 2.99 2.994 2.994 0 0 0 2.99-2.99 2.993 2.993 0 0 0-2.99-2.99zm0 4.976A1.987 1.987 0 0 1 5.454 12a1.986 1.986 0 0 1 1.985-1.986A1.986 1.986 0 0 1 9.425 12a1.987 1.987 0 0 1-1.986 1.986zM12 9.01A2.993 2.993 0 0 0 9.01 12 2.993 2.993 0 0 0 12 14.99 2.994 2.994 0 0 0 14.99 12 2.993 2.993 0 0 0 12 9.01zm0 4.976A1.986 1.986 0 0 1 10.014 12c0-1.095.891-1.986 1.986-1.986A1.986 1.986 0 0 1 13.986 12 1.987 1.987 0 0 1 12 13.986zm4.561-4.976A2.993 2.993 0 0 0 13.575 12a2.993 2.993 0 0 0 2.986 2.99 2.994 2.994 0 0 0 2.99-2.99 2.993 2.993 0 0 0-2.99-2.99zm0 4.976A1.987 1.987 0 0 1 14.576 12a1.986 1.986 0 0 1 1.985-1.986A1.986 1.986 0 0 1 18.547 12a1.987 1.987 0 0 1-1.986 1.986z"/></svg>
+          </a>
+          <a id="linkBilibili" href="#" target="_blank" class="social-btn" title="Bilibili">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373z"/></svg>
+          </a>
+        </div>
+        <p class="tagline">用镜头记录世界的美好</p>
+      </div>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator">
+      <span>向下滚动</span>
+      <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="carousel-section" id="carousel">
+    <div class="carousel-container">
+      <div class="carousel-wrapper">
+        <div class="carousel-track" id="carouselTrack"></div>
+      </div>
+      <div class="carousel-indicators" id="carouselIndicators"></div>
+    </div>
+  </section>
+
+  <section class="modules-section" id="modules">
+    <div class="modules-container">
+      <div class="category-toggle">
+        <button class="toggle-btn active" data-category="type">摄影类型</button>
+        <button class="toggle-btn" data-category="device">摄影设备</button>
+      </div>
+      <div class="module-grid" id="moduleGrid"></div>
+    </div>
+  </section>
+
+  <div class="gallery-modal" id="galleryModal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-header">
+        <h2 id="modalTitle">作品展示</h2>
+        <p id="modalSubtitle">点击作品查看详情</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </div>
+
+  <div class="photo-modal" id="photoModal">
+    <div class="photo-overlay" id="photoOverlay"></div>
+    <button class="photo-close" id="photoClose">&times;</button>
+    <div class="photo-content">
+      <img id="photoImage" src="" alt="">
+      <div class="photo-info">
+        <h3 id="photoTitle"></h3>
+        <p id="photoDescription"></p>
+        <div class="photo-exif" id="photoExif"></div>
+        <div class="photo-tags" id="photoTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+// 配置数据
+var config = {};
+
+// 泡泡配置 - 移动端和桌面端分开，确保不重叠
+var BUBBLES = [
+  { id: 'macro', label: '微距', mobileSize: 50, desktopSize: 70, color: 'teal' },
+  { id: 'blackwhite', label: '黑白', mobileSize: 55, desktopSize: 80, color: 'purple' },
+  { id: 'stilllife', label: '静物', mobileSize: 48, desktopSize: 65, color: 'pink' },
+  { id: 'animal', label: '动物', mobileSize: 52, desktopSize: 75, color: 'teal' },
+  { id: 'landscape', label: '风景', mobileSize: 48, desktopSize: 70, color: 'purple' },
+];
+
+// 泡泡位置 - 分散布局，避免重叠
+var BUBBLE_POSITIONS = {
+  mobile: [
+    { x: 8, y: 5 },     // 微距 - 左上
+    { x: 70, y: 8 },    // 黑白 - 右上
+    { x: 5, y: 55 },    // 静物 - 左中
+    { x: 75, y: 58 },   // 动物 - 右中
+    { x: 65, y: 35 },   // 风景 - 右上偏中（避开标题）
+  ],
+  desktop: [
+    { x: 10, y: 10 },   // 微距
+    { x: 85, y: 12 },   // 黑白
+    { x: 12, y: 65 },   // 静物
+    { x: 88, y: 68 },   // 动物
+    { x: 80, y: 40 },   // 风景
+  ]
+};
+
+// 初始化
+function init() {
+  fetch('config.json')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      config = data;
+      initStars();
+      initHero();
+      initCarousel();
+      initModules();
+      initScroll();
+    })
+    .catch(function(e) { console.error('加载失败:', e); });
+}
+
+// 星空背景
+function initStars() {
+  var container = document.getElementById('starBackground');
+  if (!container) return;
+  
+  // 星星
+  for (var i = 0; i < 50; i++) {
+    var star = document.createElement('div');
+    star.className = Math.random() > 0.9 ? 'star bright' : 'star';
+    star.style.left = Math.random() * 100 + '%';
+    star.style.top = Math.random() * 100 + '%';
+    star.style.animationDelay = Math.random() * 3 + 's';
+    container.appendChild(star);
+  }
+  
+  // 流星 - 随机位置，持续生成
+  function createMeteor() {
+    var meteor = document.createElement('div');
+    meteor.className = 'meteor';
+    // 随机位置：屏幕任何位置
+    meteor.style.top = (Math.random() * 80) + '%';
+    meteor.style.left = (Math.random() * 80) + '%';
+    // 随机角度 25-45度
+    var angle = 25 + Math.random() * 20;
+    meteor.style.transform = 'rotate(' + angle + 'deg)';
+    container.appendChild(meteor);
+
+    // 动画结束后移除
+    setTimeout(function() {
+      if (meteor.parentNode) meteor.parentNode.removeChild(meteor);
+    }, 2000);
+  }
+
+  // 初始创建
+  createMeteor();
+  setTimeout(createMeteor, 1000);
+
+  // 持续随机生成
+  setInterval(function() {
+    if (Math.random() > 0.4) createMeteor();
+  }, 2000 + Math.random() * 3000);
+}
+
+// Hero区域
+function initHero() {
+  var avatarImg = document.getElementById('avatarImg');
+  if (avatarImg && config.avatar && config.avatar.url) {
+    avatarImg.src = config.avatar.url;
+  }
+  
+  var link500px = document.getElementById('link500px');
+  var linkBilibili = document.getElementById('linkBilibili');
+  if (link500px && config.avatar && config.avatar.link500px) {
+    link500px.href = config.avatar.link500px;
+  }
+  if (linkBilibili && config.avatar && config.avatar.linkBilibili) {
+    linkBilibili.href = config.avatar.linkBilibili;
+  }
+  
+  initBubbles();
+}
+
+// 泡泡导航
+function initBubbles() {
+  var container = document.getElementById('bubbleNav');
+  if (!container) return;
+  
+  var isMobile = window.innerWidth < 768;
+  var positions = isMobile ? BUBBLE_POSITIONS.mobile : BUBBLE_POSITIONS.desktop;
+  
+  for (var i = 0; i < BUBBLES.length; i++) {
+    var bubble = BUBBLES[i];
+    var size = isMobile ? bubble.mobileSize : bubble.desktopSize;
+    var btn = document.createElement('button');
+    btn.className = 'bubble ' + bubble.color;
+    btn.textContent = bubble.label;
+    btn.style.left = positions[i].x + '%';
+    btn.style.top = positions[i].y + '%';
+    btn.style.width = size + 'px';
+    btn.style.height = size + 'px';
+    btn.style.animationDelay = (i * 0.4) + 's';
+    (function(id) {
+      btn.onclick = function() { openGallery(id); };
+    })(bubble.id);
+    container.appendChild(btn);
+  }
+}
+
+// 轮播图
+var currentSlide = 0;
+var carouselTimer = null;
+
+function initCarousel() {
+  var track = document.getElementById('carouselTrack');
+  var indicators = document.getElementById('carouselIndicators');
+  if (!track || !config.carousel || !config.carousel.images) return;
+  
+  track.innerHTML = '';
+  indicators.innerHTML = '';
+  
+  var images = config.carousel.images;
+  for (var i = 0; i < images.length; i++) {
+    var img = images[i];
+    var item = document.createElement('div');
+    item.className = 'carousel-item';
+    item.innerHTML = '<img src="' + img.url + '" alt="' + img.title + '"><div class="carousel-info"><h3>' + img.title + '</h3></div>';
+    track.appendChild(item);
+    
+    var dot = document.createElement('button');
+    dot.className = 'indicator' + (i === 0 ? ' active' : '');
+    dot.onclick = (function(idx) { return function() { goToSlide(idx); }; })(i);
+    indicators.appendChild(dot);
+  }
+  
+  updateCarousel();
+  startCarousel();
+  
+  // 触摸滑动
+  var startX = 0;
+  track.addEventListener('touchstart', function(e) {
+    startX = e.touches[0].clientX;
+    stopCarousel();
+  }, { passive: true });
+  
+  track.addEventListener('touchend', function(e) {
+    var endX = e.changedTouches[0].clientX;
+    var diff = startX - endX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) nextSlide();
+      else prevSlide();
+    }
+    startCarousel();
+  }, { passive: true });
+}
+
+function updateCarousel() {
+  var track = document.getElementById('carouselTrack');
+  var items = track.querySelectorAll('.carousel-item');
+  if (items.length === 0) return;
+  
+  var itemWidth = items[0].offsetWidth + 16;
+  track.style.transform = 'translateX(-' + (currentSlide * itemWidth) + 'px)';
+  
+  var dots = document.querySelectorAll('.indicator');
+  for (var i = 0; i < dots.length; i++) {
+    dots[i].classList.toggle('active', i === currentSlide);
+  }
+}
+
+function goToSlide(n) {
+  var items = document.querySelectorAll('.carousel-item');
+  if (items.length === 0) return;
+  currentSlide = n;
+  if (currentSlide >= items.length) currentSlide = 0;
+  if (currentSlide < 0) currentSlide = items.length - 1;
+  updateCarousel();
+}
+
+function nextSlide() {
+  var items = document.querySelectorAll('.carousel-item');
+  if (items.length === 0) return;
+  currentSlide++;
+  if (currentSlide >= items.length) currentSlide = 0;
+  updateCarousel();
+}
+
+function prevSlide() {
+  var items = document.querySelectorAll('.carousel-item');
+  if (items.length === 0) return;
+  currentSlide--;
+  if (currentSlide < 0) currentSlide = items.length - 1;
+  updateCarousel();
+}
+
+function startCarousel() {
+  if (carouselTimer) clearInterval(carouselTimer);
+  var interval = config.carousel && config.carousel.autoPlayInterval ? config.carousel.autoPlayInterval : 5000;
+  carouselTimer = setInterval(nextSlide, interval);
+}
+
+function stopCarousel() {
+  if (carouselTimer) {
+    clearInterval(carouselTimer);
+    carouselTimer = null;
+  }
+}
+
+// 模块
+var currentCategory = 'type';
+
+function initModules() {
+  var btns = document.querySelectorAll('.toggle-btn');
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].onclick = function() {
+      for (var j = 0; j < btns.length; j++) btns[j].classList.remove('active');
+      this.classList.add('active');
+      currentCategory = this.getAttribute('data-category');
+      renderModules();
+    };
+  }
+  renderModules();
+}
+
+function renderModules() {
+  var grid = document.getElementById('moduleGrid');
+  if (!grid || !config.modules) return;
+  
+  var modules = currentCategory === 'type' ? config.modules.byType : config.modules.byDevice;
+  grid.innerHTML = '';
+  
+  for (var i = 0; i < modules.length; i++) {
+    var m = modules[i];
+    var card = document.createElement('div');
+    card.className = 'module-card';
+    (function(id) { card.onclick = function() { openGallery(id); }; })(m.id);
+    
+    var cover = m.coverUrl ? '<img src="' + m.coverUrl + '">' : '<span>' + m.name[0] + '</span>';
+    card.innerHTML = '<div class="module-cover">' + cover + '</div><div class="module-info"><h3>' + m.name + '</h3><p>' + (m.description || '') + '</p></div>';
+    grid.appendChild(card);
+  }
+}
+
+// 滚动指示器
+function initScroll() {
+  var indicator = document.getElementById('scrollIndicator');
+  if (!indicator) return;
+  indicator.onclick = function() {
+    document.getElementById('carousel').scrollIntoView({ behavior: 'smooth' });
+  };
+  window.addEventListener('scroll', function() {
+    indicator.style.opacity = window.scrollY > 100 ? '0' : '1';
+  }, { passive: true });
+}
+
+// 图库弹窗
+function openGallery(moduleId) {
+  var modal = document.getElementById('galleryModal');
+  var grid = document.getElementById('galleryGrid');
+  var title = document.getElementById('modalTitle');
+  var subtitle = document.getElementById('modalSubtitle');
+  if (!modal || !config.gallery || !config.gallery.items) return;
+  
+  var photos = [];
+  for (var i = 0; i < config.gallery.items.length; i++) {
+    if (config.gallery.items[i].tags && config.gallery.items[i].tags.indexOf(moduleId) !== -1) {
+      photos.push(config.gallery.items[i]);
+    }
+  }
+  
+  var moduleName = moduleId;
+  var allModules = [];
+  if (config.modules && config.modules.byType) allModules = allModules.concat(config.modules.byType);
+  if (config.modules && config.modules.byDevice) allModules = allModules.concat(config.modules.byDevice);
+  for (var j = 0; j < allModules.length; j++) {
+    if (allModules[j].id === moduleId) { moduleName = allModules[j].name; break; }
+  }
+  
+  title.textContent = moduleName + '作品';
+  subtitle.textContent = '共 ' + photos.length + ' 张作品';
+  
+  grid.innerHTML = '';
+  for (var k = 0; k < photos.length; k++) {
+    var item = document.createElement('div');
+    item.className = 'gallery-item';
+    (function(p) { item.onclick = function() { openPhoto(p); }; })(photos[k]);
+    item.innerHTML = '<img src="' + photos[k].thumbnailUrl + '">';
+    grid.appendChild(item);
+  }
+  
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeGallery() {
+  var modal = document.getElementById('galleryModal');
+  if (modal) {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+}
+
+function openPhoto(photo) {
+  var modal = document.getElementById('photoModal');
+  if (!modal) return;
+  document.getElementById('photoImage').src = photo.originalUrl || photo.thumbnailUrl;
+  document.getElementById('photoTitle').textContent = photo.title || '';
+  document.getElementById('photoDescription').textContent = photo.description || '';
+  
+  var exifDiv = document.getElementById('photoExif');
+  if (photo.exif) {
+    var labels = { aperture: '光圈', shutterSpeed: '快门', iso: 'ISO', focalLength: '焦距', camera: '相机', lens: '镜头' };
+    var html = '';
+    for (var key in photo.exif) {
+      html += '<div class="exif-item"><span class="exif-label">' + (labels[key] || key) + '</span><span class="exif-value">' + photo.exif[key] + '</span></div>';
+    }
+    exifDiv.innerHTML = html;
+  } else {
+    exifDiv.innerHTML = '';
+  }
+  
+  var tagsDiv = document.getElementById('photoTags');
+  if (photo.tags) {
+    var allModules = [];
+    if (config.modules && config.modules.byType) allModules = allModules.concat(config.modules.byType);
+    if (config.modules && config.modules.byDevice) allModules = allModules.concat(config.modules.byDevice);
+    var tagsHtml = '';
+    for (var t = 0; t < photo.tags.length; t++) {
+      var tagName = photo.tags[t];
+      for (var m = 0; m < allModules.length; m++) {
+        if (allModules[m].id === photo.tags[t]) { tagName = allModules[m].name; break; }
+      }
+      tagsHtml += '<span class="photo-tag">' + tagName + '</span>';
+    }
+    tagsDiv.innerHTML = tagsHtml;
+  } else {
+    tagsDiv.innerHTML = '';
+  }
+  
+  modal.classList.add('active');
+}
+
+function closePhoto() {
+  var modal = document.getElementById('photoModal');
+  if (modal) modal.classList.remove('active');
+}
+
+// 事件绑定
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('modalClose').onclick = closeGallery;
+  document.getElementById('modalOverlay').onclick = closeGallery;
+  document.getElementById('photoClose').onclick = closePhoto;
+  document.getElementById('photoOverlay').onclick = closePhoto;
+  
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { closePhoto(); closeGallery(); }
+  });
+  
+  init();
+});
+
+window.addEventListener('resize', function() {
+  var container = document.getElementById('bubbleNav');
+  if (container) {
+    container.innerHTML = '';
+    initBubbles();
+  }
+  updateCarousel();
+});
+  </script>
+</body>
+</html>
