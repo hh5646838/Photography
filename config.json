@@ -1,0 +1,279 @@
+{
+  "_comment": "JoJo摄影展示站 - 站点配置文件 | 修改此文件即可更新所有内容，无需修改代码",
+  "title": "JoJo摄影",
+
+  "avatar": {
+    "_comment": "首页头像配置 | url: 头像图片链接 | link500px: 点击500px图标跳转的链接 | linkBilibili: 点击B站图标跳转的链接",
+    "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+    "link500px": "https://500px.com/your-profile",
+    "linkBilibili": "https://space.bilibili.com/your-id"
+  },
+
+  "carousel": {
+    "_comment": "首页轮播图配置 | 建议5张图片，21:9宽屏比例最佳 | autoPlayInterval: 自动播放间隔(毫秒)",
+    "autoPlayInterval": 5000,
+    "images": [
+      {
+        "id": "1",
+        "url": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&h=600&fit=crop",
+        "title": "星空下的静谧",
+        "description": "银河横跨夜空"
+      },
+      {
+        "id": "2",
+        "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop",
+        "title": "山峦叠嶂",
+        "description": "云雾缭绕的山峰"
+      },
+      {
+        "id": "3",
+        "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&h=600&fit=crop",
+        "title": "晨雾森林",
+        "description": "阳光穿透薄雾"
+      },
+      {
+        "id": "4",
+        "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=600&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600&h=1200&fit=crop",
+        "title": "湖光山色",
+        "description": "倒影如镜",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/250s",
+          "iso": "100",
+          "focalLength": "24mm",
+          "camera": "Sony A7R IV",
+          "lens": "FE 24-70mm f/2.8 GM"
+        }
+      },
+      {
+        "id": "5",
+        "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=600&fit=crop",
+        "title": "荒野独行",
+        "description": "探索未知"
+      }
+    ]
+  },
+
+  "modules": {
+    "_comment": "分类模块配置 | 分为摄影类型(byType)和摄影设备(byDevice)两类 | id必须与gallery中tags匹配",
+    "byType": [
+      {
+        "id": "macro",
+        "name": "微距",
+        "coverUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+        "description": "微观世界的奇妙"
+      },
+      {
+        "id": "blackwhite",
+        "name": "黑白",
+        "coverUrl": "https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=400&h=300&fit=crop",
+        "description": "光影的艺术"
+      },
+      {
+        "id": "stilllife",
+        "name": "静物",
+        "coverUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop",
+        "description": "定格美好"
+      },
+      {
+        "id": "animal",
+        "name": "动物",
+        "coverUrl": "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=400&h=300&fit=crop",
+        "description": "生灵百态"
+      },
+      {
+        "id": "plant",
+        "name": "植物",
+        "coverUrl": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=400&h=300&fit=crop",
+        "description": "自然之美"
+      },
+      {
+        "id": "city",
+        "name": "城市",
+        "coverUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
+        "description": "都市光影"
+      },
+      {
+        "id": "landscape",
+        "name": "风景",
+        "coverUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+        "description": "大好河山"
+      }
+    ],
+    "byDevice": [
+      {
+        "id": "sony",
+        "name": "Sony",
+        "coverUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop",
+        "description": "索尼相机作品"
+      },
+      {
+        "id": "canon",
+        "name": "Canon",
+        "coverUrl": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=300&fit=crop",
+        "description": "佳能相机作品"
+      },
+      {
+        "id": "nikon",
+        "name": "Nikon",
+        "coverUrl": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=400&h=300&fit=crop",
+        "description": "尼康相机作品"
+      },
+      {
+        "id": "fujifilm",
+        "name": "Fujifilm",
+        "coverUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop",
+        "description": "富士相机作品"
+      },
+      {
+        "id": "leica",
+        "name": "Leica",
+        "coverUrl": "https://images.unsplash.com/photo-1564466013029-6f8e7c68840e?w=400&h=300&fit=crop",
+        "description": "徕卡相机作品"
+      }
+    ]
+  },
+
+  "gallery": {
+    "_comment": "图片库配置 | 每个图片可打多个标签(tags)，标签与modules中的id对应 | 点击模块时自动过滤显示对应标签的图片",
+    "items": [
+      {
+        "id": "photo1",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1600&h=1200&fit=crop",
+        "title": "星空露营",
+        "description": "银河下的露营之夜，远离城市光污染",
+        "exif": {
+          "aperture": "f/2.8",
+          "shutterSpeed": "30s",
+          "iso": "3200",
+          "focalLength": "14mm",
+          "camera": "Sony A7R IV",
+          "lens": "FE 14mm f/1.8 GM"
+        },
+        "tags": ["landscape", "sony"],
+        "createdAt": "2024-01-15"
+      },
+      {
+        "id": "photo2",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&h=1200&fit=crop",
+        "title": "露珠微距",
+        "description": "清晨的露珠，微距下的水晶世界",
+        "exif": {
+          "aperture": "f/4",
+          "shutterSpeed": "1/200s",
+          "iso": "400",
+          "focalLength": "90mm",
+          "camera": "Canon EOS R5",
+          "lens": "RF 100mm f/2.8L Macro IS USM"
+        },
+        "tags": ["macro", "plant", "canon"],
+        "createdAt": "2024-02-20"
+      },
+      {
+        "id": "photo3",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1600&h=1200&fit=crop",
+        "title": "狐狸",
+        "description": "雪地中的赤狐，眼神灵动",
+        "exif": {
+          "aperture": "f/5.6",
+          "shutterSpeed": "1/500s",
+          "iso": "800",
+          "focalLength": "400mm",
+          "camera": "Nikon Z9",
+          "lens": "NIKKOR Z 400mm f/2.8 TC VR S"
+        },
+        "tags": ["animal", "nikon"],
+        "createdAt": "2024-03-10"
+      },
+      {
+        "id": "photo4",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=1600&h=1200&fit=crop",
+        "title": "黑白建筑",
+        "description": "极简主义建筑摄影",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/125s",
+          "iso": "100",
+          "focalLength": "35mm",
+          "camera": "Leica M11",
+          "lens": "Summilux-M 35mm f/1.4 ASPH"
+        },
+        "tags": ["blackwhite", "city", "leica"],
+        "createdAt": "2024-04-05"
+      },
+      {
+        "id": "photo5",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1600&h=1200&fit=crop",
+        "title": "咖啡时光",
+        "description": "午后的一杯咖啡",
+        "exif": {
+          "aperture": "f/2",
+          "shutterSpeed": "1/60s",
+          "iso": "200",
+          "focalLength": "50mm",
+          "camera": "Fujifilm X-T5",
+          "lens": "XF 50mm f/1.0 R WR"
+        },
+        "tags": ["stilllife", "fujifilm"],
+        "createdAt": "2024-05-12"
+      },
+      {
+        "id": "photo6",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1600&h=1200&fit=crop",
+        "title": "城市夜景",
+        "description": "繁华都市的霓虹灯光",
+        "exif": {
+          "aperture": "f/2.8",
+          "shutterSpeed": "1/30s",
+          "iso": "1600",
+          "focalLength": "24mm",
+          "camera": "Sony A7S III",
+          "lens": "FE 24mm f/1.4 GM"
+        },
+        "tags": ["city", "landscape", "sony"],
+        "createdAt": "2024-06-18"
+      },
+      {
+        "id": "photo7",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=1600&h=1200&fit=crop",
+        "title": "绿叶",
+        "description": "阳光下的绿叶纹理",
+        "exif": {
+          "aperture": "f/2.8",
+          "shutterSpeed": "1/250s",
+          "iso": "100",
+          "focalLength": "100mm",
+          "camera": "Canon EOS R6",
+          "lens": "RF 100mm f/2.8L Macro IS USM"
+        },
+        "tags": ["plant", "macro", "canon"],
+        "createdAt": "2024-07-22"
+      },
+      {
+        "id": "photo8",
+        "thumbnailUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+        "originalUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=1200&fit=crop",
+        "title": "山峰",
+        "description": "云雾缭绕的山峰",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/125s",
+          "iso": "100",
+          "focalLength": "70mm",
+          "camera": "Nikon Z7 II",
+          "lens": "NIKKOR Z 24-70mm f/2.8 S"
+        },
+        "tags": ["landscape", "nikon"],
+        "createdAt": "2024-08-30"
+      }
+    ]
+  }
+}
