@@ -1,14 +1,12 @@
 {
   "_comment": "JoJo摄影展示站 - 站点配置文件 | 修改此文件即可更新所有内容，无需修改代码",
   "title": "JoJo摄影",
-
   "avatar": {
     "_comment": "首页头像配置 | url: 头像图片链接 | link500px: 点击500px图标跳转的链接 | linkBilibili: 点击B站图标跳转的链接",
-    "url": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787163147/17870078999436d7f04230b919a173f7f57b930c49f2f96a02dcf.jpg",
-    "link500px": "https://500px.com/your-profile",
+    "url": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787252857/Weixin_Image_20260821030256_2627_2.jpg",
+    "link500px": "https://500px.com.cn/community/user-details/f8a94c0284797ad15949efa30b8103929?rs=f8a94c0284797ad15949efa30b8103929",
     "linkBilibili": "https://b23.tv/3hN5Cjb"
   },
-
   "carousel": {
     "_comment": "首页轮播图配置 | 建议5张图片，21:9宽屏比例最佳 | autoPlayInterval: 自动播放间隔(毫秒)",
     "autoPlayInterval": 5000,
@@ -34,7 +32,7 @@
       {
         "id": "4",
         "url": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787156913/micro_still.jpg",
-        "originalUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1600&h=1200&fit=crop",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787156913/micro_still.jpg",
         "title": "螺丝",
         "description": "静物 微距",
         "exif": {
@@ -54,7 +52,6 @@
       }
     ]
   },
-
   "modules": {
     "_comment": "分类模块配置 | 分为摄影类型(byType)和摄影设备(byDevice)两类 | id必须与gallery中tags匹配",
     "byType": [
@@ -105,36 +102,35 @@
       {
         "id": "A7R2",
         "name": "索尼A7R2",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787167981/R.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250771/R.jpg",
         "description": "Sony A7R2作品"
       },
       {
         "id": "GM1",
         "name": "松下GM1",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787168058/lumix-lx100ii-hero-2000px-1536x1152.jpg",
-        "description": "Panasonic Lumix DMC-GM1Panasonic Lumix DMC-GM1作品"
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250772/lumix-lx100ii-hero-2000px-1536x1152.jpg",
+        "description": "Panasonic Lumix DMC-GM1作品"
       },
       {
         "id": "Sigma105",
         "name": "Sigma 105 老镜头",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787168292/33158440978_2baaa8fb60_k.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250771/33158440978_2baaa8fb60_k.jpg",
         "description": "Sigma 105mm F2.8 MACRO EX DG 作品"
       },
       {
         "id": "Industar61",
         "name": "Industar61",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787167732/1200x1200-1668342107.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250770/1200x1200-1668342107.jpg",
         "description": "Industar61作品 主要为黑白"
       },
       {
         "id": "takumar35",
         "name": "takumar 35 3.5",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787167733/850x816-17719319738839.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250769/850x816-17719319738839.jpg",
         "description": "super takumar 35 3.5作品"
       }
     ]
   },
-
   "gallery": {
     "_comment": "图片库配置 | 每个图片可打多个标签(tags)，标签与modules中的id对应 | 点击模块时自动过滤显示对应标签的图片",
     "items": [
@@ -242,37 +238,173 @@
       },
       {
         "id": "photo7",
-        "thumbnailUrl": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=400&h=300&fit=crop",
-        "originalUrl": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=1600&h=1200&fit=crop",
-        "title": "绿叶",
-        "description": "阳光下的绿叶纹理",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253700/DSC02834_p.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253700/DSC02834_p.jpg",
+        "title": "七彩神仙鱼",
+        "description": "动物 水族 鱼缸中的红色七彩神仙鱼",
         "exif": {
-          "aperture": "f/2.8",
-          "shutterSpeed": "1/250s",
-          "iso": "100",
-          "focalLength": "100mm",
-          "camera": "Canon EOS R6",
-          "lens": "RF 100mm f/2.8L Macro IS USM"
+          "aperture": "f/8",
+          "shutterSpeed": "1/2000s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
         },
-        "tags": ["plant", "macro", "canon"],
-        "createdAt": "2024-07-22"
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
       },
       {
         "id": "photo8",
-        "thumbnailUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
-        "originalUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&h=1200&fit=crop",
-        "title": "山峰",
-        "description": "云雾缭绕的山峰",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253780/DSC02896.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253780/DSC02896.jpg",
+        "title": "水豚",
+        "description": "动物 成都动物园 趴地休憩的水豚",
+        "exif": {
+          "aperture": "f/5.6",
+          "shutterSpeed": "1/8000s",
+          "iso": "8000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo9",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253863/DSC02910.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253863/DSC02910.jpg",
+        "title": "孔雀开屏",
+        "description": "动物 成都动物园 孔雀开屏正面特写",
         "exif": {
           "aperture": "f/8",
-          "shutterSpeed": "1/125s",
-          "iso": "100",
-          "focalLength": "70mm",
-          "camera": "Nikon Z7 II",
-          "lens": "NIKKOR Z 24-70mm f/2.8 S"
+          "shutterSpeed": "1/320s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
         },
-        "tags": ["landscape", "nikon"],
-        "createdAt": "2024-08-30"
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo10",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253655/DSC02913.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253655/DSC02913.jpg",
+        "title": "孔雀羽毛微距",
+        "description": "微距 动物 孔雀尾羽眼状斑特写",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/250s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "macro", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo11",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253656/DSC02928.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253656/DSC02928.jpg",
+        "title": "棕熊",
+        "description": "动物 成都动物园 抱树干的棕熊",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/2000s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo12",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253696/DSC02933_p.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253696/DSC02933_p.jpg",
+        "title": "白犀牛",
+        "description": "动物 成都动物园 白犀牛侧面特写",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/2000s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo13",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253696/DSC02934.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253696/DSC02934.jpg",
+        "title": "白犀牛",
+        "description": "动物 成都动物园 白犀牛全身背影",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/2000s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo14",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253697/DSC02944_p.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253697/DSC02944_p.jpg",
+        "title": "亚洲象",
+        "description": "动物 成都动物园 从树后探头的亚洲象",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/1600s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo15",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253698/DSC02946_p.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253698/DSC02946_p.jpg",
+        "title": "亚洲象",
+        "description": "动物 成都动物园 亚洲象全身正面",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/1600s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
+      },
+      {
+        "id": "photo16",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253699/DSC02952.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787253699/DSC02952.jpg",
+        "title": "狐獴",
+        "description": "动物 成都动物园 站在旧轮胎上的狐獴",
+        "exif": {
+          "aperture": "f/8",
+          "shutterSpeed": "1/160s",
+          "iso": "2000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": ["A7R2", "Sigma105", "animal"],
+        "createdAt": "2026-06-14"
       }
     ]
   }
