@@ -58,13 +58,13 @@
       {
         "id": "macro",
         "name": "微距",
-        "coverUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787156913/micro_still.jpg",
         "description": "微观世界的奇妙"
       },
       {
         "id": "blackwhite",
         "name": "黑白",
-        "coverUrl": "https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=400&h=300&fit=crop",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787163828/bw_2.jpg",
         "description": "光影的艺术"
       },
       {
@@ -76,13 +76,13 @@
       {
         "id": "animal",
         "name": "动物",
-        "coverUrl": "https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=400&h=300&fit=crop",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787253780/DSC02896.jpg",
         "description": "生灵百态"
       },
       {
         "id": "plant",
         "name": "植物",
-        "coverUrl": "https://images.unsplash.com/photo-1466781783364-36c955e42a7f?w=400&h=300&fit=crop",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787156913/micro_plant1.jpg",
         "description": "自然之美"
       },
       {
@@ -94,7 +94,7 @@
       {
         "id": "landscape",
         "name": "风景",
-        "coverUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
         "description": "大好河山"
       }
     ],
