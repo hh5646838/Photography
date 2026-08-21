@@ -3,7 +3,7 @@
   "title": "JoJo摄影",
   "avatar": {
     "_comment": "首页头像配置 | url: 头像图片链接 | link500px: 点击500px图标跳转的链接 | linkBilibili: 点击B站图标跳转的链接",
-    "url": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787252857/Weixin_Image_20260821030256_2627_2.jpg",
+    "url": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787252857/Weixin_Image_20260821030256_2627_2.jpg",
     "link500px": "https://500px.com.cn/community/user-details/f8a94c0284797ad15949efa30b8103929?rs=f8a94c0284797ad15949efa30b8103929",
     "linkBilibili": "https://b23.tv/3hN5Cjb"
   },
@@ -76,13 +76,13 @@
       {
         "id": "animal",
         "name": "动物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787253780/DSC02896.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253780/DSC02896.jpg",
         "description": "生灵百态"
       },
       {
         "id": "plant",
         "name": "植物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787156913/micro_plant1.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787156913/micro_plant1.jpg",
         "description": "自然之美"
       },
       {
@@ -94,7 +94,7 @@
       {
         "id": "landscape",
         "name": "风景",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_300,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
         "description": "大好河山"
       }
     ],
@@ -102,31 +102,31 @@
       {
         "id": "A7R2",
         "name": "索尼A7R2",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250771/R.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787250771/R.jpg",
         "description": "Sony A7R2作品"
       },
       {
         "id": "GM1",
         "name": "松下GM1",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250772/lumix-lx100ii-hero-2000px-1536x1152.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787250772/lumix-lx100ii-hero-2000px-1536x1152.jpg",
         "description": "Panasonic Lumix DMC-GM1作品"
       },
       {
         "id": "Sigma105",
         "name": "Sigma 105 老镜头",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250771/33158440978_2baaa8fb60_k.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787250771/33158440978_2baaa8fb60_k.jpg",
         "description": "Sigma 105mm F2.8 MACRO EX DG 作品"
       },
       {
         "id": "Industar61",
         "name": "Industar61",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250770/1200x1200-1668342107.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787250770/1200x1200-1668342107.jpg",
         "description": "Industar61作品 主要为黑白"
       },
       {
         "id": "takumar35",
         "name": "takumar 35 3.5",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/v1787250769/850x816-17719319738839.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787250769/850x816-17719319738839.jpg",
         "description": "super takumar 35 3.5作品"
       }
     ]
