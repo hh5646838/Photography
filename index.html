@@ -130,13 +130,16 @@
 // 配置数据
 var config = {};
 
-// 泡泡配置
+// 泡泡配置（与 config.json 中 modules.byType 的 id 一一对应，新增分类请同步在这里补充）
 var BUBBLES = [
   { id: 'macro', label: '微距', mobileSize: 50, desktopSize: 70, color: 'teal' },
   { id: 'blackwhite', label: '黑白', mobileSize: 55, desktopSize: 80, color: 'purple' },
   { id: 'stilllife', label: '静物', mobileSize: 48, desktopSize: 65, color: 'pink' },
   { id: 'animal', label: '动物', mobileSize: 52, desktopSize: 75, color: 'teal' },
   { id: 'landscape', label: '风景', mobileSize: 48, desktopSize: 70, color: 'purple' },
+  { id: 'plant', label: '植物', mobileSize: 46, desktopSize: 62, color: 'pink' },
+  { id: 'city', label: '城市', mobileSize: 48, desktopSize: 66, color: 'teal' },
+  { id: 'mobile', label: '手机随拍', mobileSize: 50, desktopSize: 72, color: 'purple' },
 ];
 
 var BUBBLE_POSITIONS = {
@@ -146,6 +149,9 @@ var BUBBLE_POSITIONS = {
     { x: 8, y: 70 },      // 2: 静物 - 左下
     { x: 75, y: 65 },     // 3: 动物 - 右下
     { x: 60, y: -10 },    // 4: 风景 - 移到更上方，避免被截断
+    { x: 12, y: 2 },      // 5: 植物 - 顶部左上角，避开镜头
+    { x: 22, y: 46 },     // 6: 城市 - 左侧中部
+    { x: 42, y: 82 },     // 7: 手机随拍 - 底部居中
   ],
   desktop: [
     { x: 10, y: 20 },     // 0: 微距
@@ -153,6 +159,9 @@ var BUBBLE_POSITIONS = {
     { x: 12, y: 65 },     // 2: 静物
     { x: 88, y: 60 },     // 3: 动物
     { x: 78, y: 35 },     // 4: 风景 - 往左下移
+    { x: 32, y: 5 },      // 5: 植物 - 顶部居中偏左
+    { x: 20, y: 42 },     // 6: 城市 - 左侧中部
+    { x: 46, y: 80 },     // 7: 手机随拍 - 底部居中
   ]
 };
 
