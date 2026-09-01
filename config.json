@@ -76,7 +76,7 @@
       {
         "id": "animal",
         "name": "动物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253780/DSC02896.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253863/DSC02910.jpg",
         "description": "生灵百态"
       },
       {
@@ -89,7 +89,7 @@
         "id": "city",
         "name": "城市•乡村•建筑",
         "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787604881/Weixin_Image_20260820195320_2590_2.jpg",
-        "description": "人文之美"
+        "description": "建筑之美"
       },
       {
         "id": "landscape",
@@ -100,7 +100,7 @@
       {
         "id": "human",
         "name": "人文",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787601940/Weixin_Image_20260820195331_2602_2.jpg",
         "description": "街头纪实"
       },
       {
@@ -1000,7 +1000,6 @@
         },
         "tags": [
           "blackwhite",
-          "human",
           "A7R2",
           "Industar61"
         ],
@@ -1202,7 +1201,6 @@
           "lens": "--"
         },
         "tags": [
-          "human",
           "mobile"
         ],
         "createdAt": "2026-08-31"
@@ -1222,7 +1220,6 @@
           "lens": "--"
         },
         "tags": [
-          "human",
           "mobile"
         ],
         "createdAt": "2026-08-31"
