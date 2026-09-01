@@ -76,13 +76,13 @@
       {
         "id": "animal",
         "name": "动物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253780/DSC02896.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787476105/DSC02857_p.jpg",
         "description": "生灵百态"
       },
       {
         "id": "plant",
         "name": "植物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787156913/micro_plant1.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787481457/DSC02473.jpg",
         "description": "自然之美"
       },
       {
@@ -100,7 +100,7 @@
       {
         "id": "human",
         "name": "人文",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1788286209/Weixin_Image_20260820195242_2577_2.jpg",
         "description": "街头纪实"
       },
       {
@@ -1345,13 +1345,13 @@
           "iso": "400",
           "focalLength": "--",
           "camera": "Sony A7R2",
-          "lens": "Industar61"
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
         },
         "tags": [
           "blackwhite",
           "city",
           "A7R2",
-          "Industar61"
+          "Sigma105"
         ],
         "createdAt": "2026-08-31"
       },
@@ -1367,13 +1367,13 @@
           "iso": "400",
           "focalLength": "--",
           "camera": "Sony A7R2",
-          "lens": "Industar61"
+          "lens": "takumar35 3.5"
         },
         "tags": [
           "blackwhite",
           "city",
           "A7R2",
-          "Industar61"
+          "takumar35"
         ],
         "createdAt": "2026-08-31"
       },
@@ -1389,13 +1389,13 @@
           "iso": "400",
           "focalLength": "--",
           "camera": "Sony A7R2",
-          "lens": "Industar61"
+          "lens": "takumar35 3.5"
         },
         "tags": [
           "blackwhite",
           "city",
           "A7R2",
-          "Industar61"
+          "takumar35"
         ],
         "createdAt": "2026-08-31"
       },
@@ -1411,7 +1411,7 @@
           "iso": "400",
           "focalLength": "--",
           "camera": "Sony A7R2",
-          "lens": "Industar61"
+          "lens": "Tarkuma35 3.5"
         },
         "tags": [
           "blackwhite",
@@ -1446,8 +1446,8 @@
         "id": "photo62",
         "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03297_copy.jpg",
         "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03297_copy.jpg",
-        "title": "灯光拱桥",
-        "description": "黑白 城市 灯光拱桥",
+        "title": "灯光天宝湾大桥",
+        "description": "黑白 城市 灯光",
         "exif": {
           "aperture": "f/6.3",
           "shutterSpeed": "1/13s",
@@ -1468,8 +1468,8 @@
         "id": "photo63",
         "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03298_copy.jpg",
         "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03298_copy.jpg",
-        "title": "拱桥夜影",
-        "description": "黑白 城市 拱桥与车轨",
+        "title": "天宝湾大桥",
+        "description": "黑白 城市 桥与车流",
         "exif": {
           "aperture": "f/6.3",
           "shutterSpeed": "1/8s",
@@ -1498,11 +1498,12 @@
           "iso": "--",
           "focalLength": "--",
           "camera": "--",
-          "lens": "--"
+          "lens": "14-42"
         },
         "tags": [
           "human",
-          "mobile"
+          "mobile",
+          "GM1"
         ],
         "createdAt": "2026-08-20"
       },
@@ -1518,11 +1519,12 @@
           "iso": "--",
           "focalLength": "--",
           "camera": "--",
-          "lens": "--"
+          "lens": "14-42"
         },
         "tags": [
           "human",
-          "mobile"
+          "mobile",
+          "GM1"
         ],
         "createdAt": "2026-08-20"
       },
