@@ -76,7 +76,7 @@
       {
         "id": "animal",
         "name": "动物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253863/DSC02910.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253780/DSC02896.jpg",
         "description": "生灵百态"
       },
       {
@@ -89,7 +89,7 @@
         "id": "city",
         "name": "城市•乡村•建筑",
         "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787604881/Weixin_Image_20260820195320_2590_2.jpg",
-        "description": "建筑之美"
+        "description": "人文之美"
       },
       {
         "id": "landscape",
@@ -100,7 +100,7 @@
       {
         "id": "human",
         "name": "人文",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787601940/Weixin_Image_20260820195331_2602_2.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
         "description": "街头纪实"
       },
       {
@@ -1000,6 +1000,7 @@
         },
         "tags": [
           "blackwhite",
+          "human",
           "A7R2",
           "Industar61"
         ],
@@ -1201,6 +1202,7 @@
           "lens": "--"
         },
         "tags": [
+          "human",
           "mobile"
         ],
         "createdAt": "2026-08-31"
@@ -1220,6 +1222,7 @@
           "lens": "--"
         },
         "tags": [
+          "human",
           "mobile"
         ],
         "createdAt": "2026-08-31"
@@ -1263,6 +1266,507 @@
           "mobile"
         ],
         "createdAt": "2026-08-31"
+      },
+      {
+        "id": "photo54",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/2026-05-31_15-24-18_B_R8_S4.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/2026-05-31_15-24-18_B_R8_S4.jpg",
+        "title": "油茶宽盾蝽",
+        "description": "微距 动物 昆虫",
+        "exif": {
+          "aperture": "f/11",
+          "shutterSpeed": "1/80s",
+          "iso": "1600",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "macro",
+          "animal",
+          "A7R2",
+          "Sigma105"
+        ],
+        "createdAt": "2026-05-27"
+      },
+      {
+        "id": "photo55",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/2026-05-31_15-26-09_B_R8_S4.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/2026-05-31_15-26-09_B_R8_S4.jpg",
+        "title": "角盾蝽",
+        "description": "微距 动物 昆虫 拟态",
+        "exif": {
+          "aperture": "f/11",
+          "shutterSpeed": "1/80s",
+          "iso": "1000",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "macro",
+          "animal",
+          "A7R2",
+          "Sigma105"
+        ],
+        "createdAt": "2026-05-27"
+      },
+      {
+        "id": "photo56",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285375/2026-05-31_15-26-52_B_R8_S4.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285375/2026-05-31_15-26-52_B_R8_S4.jpg",
+        "title": "木贼嫩芽",
+        "description": "微距 植物 嫩芽",
+        "exif": {
+          "aperture": "f/11",
+          "shutterSpeed": "1/80s",
+          "iso": "800",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "macro",
+          "plant",
+          "A7R2",
+          "Sigma105"
+        ],
+        "createdAt": "2026-05-27"
+      },
+      {
+        "id": "photo57",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03262_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03262_copy.jpg",
+        "title": "夜斜拉桥",
+        "description": "黑白 城市 夜景斜拉桥",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/10s",
+          "iso": "400",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Industar61"
+        },
+        "tags": [
+          "blackwhite",
+          "city",
+          "A7R2",
+          "Industar61"
+        ],
+        "createdAt": "2026-08-31"
+      },
+      {
+        "id": "photo58",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03263.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03263.jpg",
+        "title": "几何立面",
+        "description": "黑白 城市 三角网格立面",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/15s",
+          "iso": "400",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Industar61"
+        },
+        "tags": [
+          "blackwhite",
+          "city",
+          "A7R2",
+          "Industar61"
+        ],
+        "createdAt": "2026-08-31"
+      },
+      {
+        "id": "photo59",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03264.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03264.jpg",
+        "title": "几何光影",
+        "description": "黑白 城市 三角网格与灯带",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/10s",
+          "iso": "400",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Industar61"
+        },
+        "tags": [
+          "blackwhite",
+          "city",
+          "A7R2",
+          "Industar61"
+        ],
+        "createdAt": "2026-08-31"
+      },
+      {
+        "id": "photo60",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03268_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03268_copy.jpg",
+        "title": "月下廊桥",
+        "description": "黑白 城市 步行桥与月亮",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/3s",
+          "iso": "400",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Industar61"
+        },
+        "tags": [
+          "blackwhite",
+          "city",
+          "A7R2",
+          "Industar61"
+        ],
+        "createdAt": "2026-08-31"
+      },
+      {
+        "id": "photo61",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03288_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03288_copy.jpg",
+        "title": "粉塔夜色",
+        "description": "城市 夜景",
+        "exif": {
+          "aperture": "f/6.3",
+          "shutterSpeed": "1/25s",
+          "iso": "400",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "city",
+          "A7R2",
+          "Sigma105"
+        ],
+        "createdAt": "2026-09-01"
+      },
+      {
+        "id": "photo62",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03297_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285377/DSC03297_copy.jpg",
+        "title": "灯光拱桥",
+        "description": "黑白 城市 灯光拱桥",
+        "exif": {
+          "aperture": "f/6.3",
+          "shutterSpeed": "1/13s",
+          "iso": "400",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "blackwhite",
+          "city",
+          "A7R2",
+          "Sigma105"
+        ],
+        "createdAt": "2026-09-01"
+      },
+      {
+        "id": "photo63",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03298_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788285376/DSC03298_copy.jpg",
+        "title": "拱桥夜影",
+        "description": "黑白 城市 拱桥与车轨",
+        "exif": {
+          "aperture": "f/6.3",
+          "shutterSpeed": "1/8s",
+          "iso": "400",
+          "focalLength": "105mm",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "blackwhite",
+          "city",
+          "A7R2",
+          "Sigma105"
+        ],
+        "createdAt": "2026-09-01"
+      },
+      {
+        "id": "photo64",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820195241_2576_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820195241_2576_2.jpg",
+        "title": "老式理发店",
+        "description": "人文 理发店",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "human",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo65",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820195242_2577_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820195242_2577_2.jpg",
+        "title": "等待理发的老人",
+        "description": "人文 老人",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "human",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo66",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286212/Weixin_Image_20260820190905_2564_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286212/Weixin_Image_20260820190905_2564_2.jpg",
+        "title": "欧式建筑",
+        "description": "城市 南湖公园",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "city",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo67",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190907_2566_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190907_2566_2.jpg",
+        "title": "石拱桥与民居",
+        "description": "城市 南湖公园",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "city",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo68",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190911_2569_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190911_2569_2.jpg",
+        "title": "稻田归来",
+        "description": "人文 乡村 背稻草的农人",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "human",
+          "landscape",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo69",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190915_2572_2_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190915_2572_2_copy.jpg",
+        "title": "石林远眺",
+        "description": "风景 石林与远山",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "landscape",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo70",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190916_2573_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286209/Weixin_Image_20260820190916_2573_2.jpg",
+        "title": "情绪",
+        "description": "粉紫天空",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo71",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286210/Weixin_Image_20260820195312_2581_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286210/Weixin_Image_20260820195312_2581_2.jpg",
+        "title": "稻田",
+        "description": "动物 风景 稻田 鸭子",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "animal",
+          "landscape",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo72",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286210/Weixin_Image_20260820195314_2583_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286210/Weixin_Image_20260820195314_2583_2.jpg",
+        "title": "粮仓",
+        "description": "乡村仓库与面包车",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "city",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo73",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286210/Weixin_Image_20260820195317_2587_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286210/Weixin_Image_20260820195317_2587_2.jpg",
+        "title": "湖畔城景",
+        "description": "城市 风景 兴隆湖城景",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "city",
+          "landscape",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo74",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286211/Weixin_Image_20260820195318_2588_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286211/Weixin_Image_20260820195318_2588_2.jpg",
+        "title": "花蕊桥",
+        "description": "城市 花瓣形拱桥",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "city",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo75",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286211/Weixin_Image_20260820195319_2589_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286211/Weixin_Image_20260820195319_2589_2.jpg",
+        "title": "花蕊桥影",
+        "description": "城市 花瓣形拱桥与倒影",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "city",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo76",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286211/Weixin_Image_20260820195326_2597_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286211/Weixin_Image_20260820195326_2597_2.jpg",
+        "title": "林间溪流",
+        "description": "植物 风景 林间小溪",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "plant",
+          "landscape",
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo77",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286212/Weixin_Image_20260820195328_2599_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788286212/Weixin_Image_20260820195328_2599_2.jpg",
+        "title": "林间观光车",
+        "description": "林间观光车",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "mobile"
+        ],
+        "createdAt": "2026-08-20"
       }
     ]
   }
