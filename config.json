@@ -634,7 +634,7 @@
         "tags": [
           "city",
           "A7R2",
-          "takumar35",
+          "takumar35"
         ],
         "createdAt": "2026-06-04"
       },
@@ -655,7 +655,7 @@
         "tags": [
           "plant",
           "A7R2",
-          "takumar35",
+          "takumar35"
         ],
         "createdAt": "2026-06-04"
       },
@@ -718,7 +718,7 @@
         "tags": [
           "city",
           "A7R2",
-          "Sigma105",
+          "Sigma105"
           
         ],
         "createdAt": "2026-08-15"
@@ -790,8 +790,8 @@
       },
       {
         "id": "photo31",
-        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481466/DSC03133_copy.jpg",
-        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481466/DSC03133_copy.jpg",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481465/DSC03133_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481465/DSC03133_copy.jpg",
         "title": "景观构筑物",
         "description": "黑白 城市 阶梯台地上的混凝土构筑物",
         "exif": {
@@ -812,8 +812,8 @@
       },
       {
         "id": "photo32",
-        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481465/DSC03119.jpg",
-        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481465/DSC03119.jpg",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481463/DSC03119.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787481463/DSC03119.jpg",
         "title": "湖畔垂柳",
         "description": "黑白 风景 湖边的垂柳",
         "exif": {
@@ -1189,8 +1189,8 @@
       },
       {
         "id": "photo50",
-        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788171382/Weixin_Image_20260820195334_2606_2.jpg",
-        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788171382/Weixin_Image_20260820195334_2606_2.jpg",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788171386/Weixin_Image_20260820195334_2606_2.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788171386/Weixin_Image_20260820195334_2606_2.jpg",
         "title": "夜灯市集",
         "description": "城市 龙泉山顶夜色中的灯饰摊位",
         "exif": {
