@@ -76,19 +76,19 @@
       {
         "id": "animal",
         "name": "动物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787476105/DSC02857_p.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787253780/DSC02896.jpg",
         "description": "生灵百态"
       },
       {
         "id": "plant",
         "name": "植物",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787481457/DSC02473.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787156913/micro_plant1.jpg",
         "description": "自然之美"
       },
       {
         "id": "city",
         "name": "城市•乡村•建筑",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787481463/DSC02741.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787604881/Weixin_Image_20260820195320_2590_2.jpg",
         "description": "人文之美"
       },
       {
@@ -100,13 +100,13 @@
       {
         "id": "human",
         "name": "人文",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1788286209/Weixin_Image_20260820195242_2577_2.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1787166458/IMG_2868_metool.jpg",
         "description": "街头纪实"
       },
       {
         "id": "mobile",
         "name": "手机随拍",
-        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/w_800,f_auto,q_auto/v1788286210/Weixin_Image_20260820195312_2581_2.jpg",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788171406/Weixin_Image_20260820195330_2601_2.jpg",
         "description": "记录日常瞬间"
       }
     ],
@@ -140,6 +140,12 @@
         "name": "takumar 35 3.5",
         "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1787250769/850x816-17719319738839.jpg",
         "description": "super takumar 35 3.5作品"
+      },
+      {
+        "id": "Canon70D",
+        "name": "佳能70D",
+        "coverUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/v1788427317/IMG_3044_copy.jpg",
+        "description": "Canon EOS 70D 作品"
       }
     ]
   },
@@ -719,7 +725,6 @@
           "city",
           "A7R2",
           "Sigma105"
-          
         ],
         "createdAt": "2026-08-15"
       },
@@ -1000,7 +1005,6 @@
         },
         "tags": [
           "blackwhite",
-          "human",
           "A7R2",
           "Industar61"
         ],
@@ -1042,7 +1046,6 @@
         },
         "tags": [
           "city",
-          "landscape",
           "mobile"
         ],
         "createdAt": "2026-08-25"
@@ -1122,7 +1125,7 @@
           "lens": "--"
         },
         "tags": [
-          "city",
+          "human",
           "mobile"
         ],
         "createdAt": "2026-08-25"
@@ -1182,7 +1185,6 @@
           "lens": "--"
         },
         "tags": [
-          "plant",
           "mobile"
         ],
         "createdAt": "2026-08-31"
@@ -1202,7 +1204,6 @@
           "lens": "--"
         },
         "tags": [
-          "human",
           "mobile"
         ],
         "createdAt": "2026-08-31"
@@ -1411,13 +1412,13 @@
           "iso": "400",
           "focalLength": "--",
           "camera": "Sony A7R2",
-          "lens": "Takumar35 3.5"
+          "lens": "takumar35 3.5"
         },
         "tags": [
           "blackwhite",
           "city",
           "A7R2",
-          "Takumar35"
+          "takumar35"
         ],
         "createdAt": "2026-08-31"
       },
@@ -1767,6 +1768,154 @@
           "mobile"
         ],
         "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo78",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03365_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03365_copy.jpg",
+        "title": "福寿螺卵上的蚂蚁",
+        "description": "微距 昆虫",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/640s",
+          "iso": "400",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "marco",
+          "A7R2",
+          "Sigma105",
+          "animal"
+        ],
+        "createdAt": "2026-09-03"
+      },
+      {
+        "id": "photo79",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03366_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03366_copy.jpg",
+        "title": "福寿螺卵上的蚂蚁",
+        "description": "微距 昆虫",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/320s",
+          "iso": "400",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "marco",
+          "A7R2",
+          "Sigma105",
+          "animal"
+        ],
+        "createdAt": "2026-09-03"
+      },
+      {
+        "id": "photo80",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03401.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03401.jpg",
+        "title": "带绒毛的藤曼",
+        "description": "微距 植物 彩色",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/80s",
+          "iso": "320",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "plant",
+          "A7R2",
+          "Sigma105",
+          "macro"
+        ],
+        "createdAt": "2026-09-03"
+      },
+      {
+        "id": "photo81",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03403.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/DSC03403.jpg",
+        "title": "带绒毛的藤曼",
+        "description": "微距 植物",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/60s",
+          "iso": "320",
+          "focalLength": "--",
+          "camera": "Sony A7R2",
+          "lens": "Sigma 105mm F2.8 MACRO EX DG"
+        },
+        "tags": [
+          "plant",
+          "A7R2",
+          "Sigma105",
+          "macro"
+        ],
+        "createdAt": "2026-09-03"
+      },
+      {
+        "id": "photo82",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/IMG_2868_metool.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/IMG_2868_metool.jpg",
+        "title": "川西四姑娘山",
+        "description": "风景",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "--",
+          "iso": "--",
+          "focalLength": "--",
+          "camera": "--",
+          "lens": "--"
+        },
+        "tags": [
+          "landscape",
+          "Canon70D"
+        ],
+        "createdAt": "2026-08-20"
+      },
+      {
+        "id": "photo83",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/IMG_3044_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/IMG_3044_copy.jpg",
+        "title": "木栈道",
+        "description": "四姑娘山",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/250s",
+          "iso": "200",
+          "focalLength": "--",
+          "camera": "Canon EOS 70D",
+          "lens": "EF-S18-135mm f/3.5-5.6 IS STM"
+        },
+        "tags": [
+          "Canon70D",
+          "landscape"
+        ],
+        "createdAt": "2022-11-20"
+      },
+      {
+        "id": "photo84",
+        "thumbnailUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/IMG_2642_copy.jpg",
+        "originalUrl": "https://res.cloudinary.com/vljhnkvn/image/upload/f_auto,q_auto/IMG_2642_copy.jpg",
+        "title": "雪山",
+        "description": "四姑娘山 风景",
+        "exif": {
+          "aperture": "--",
+          "shutterSpeed": "1/1250s",
+          "iso": "100",
+          "focalLength": "--",
+          "camera": "Canon EOS 70D",
+          "lens": "EF-S18-135mm f/3.5-5.6 IS STM"
+        },
+        "tags": [
+          "Canon70D",
+          "landscape"
+        ],
+        "createdAt": "2022-11-19"
       }
     ]
   }
